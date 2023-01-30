@@ -10,7 +10,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://random-data-api.com/api/v2/users?size=20')
+    fetch('https://random-data-api.com/api/v2/users?size=25')
       .then((response) => response.json())
       .then((users) => this.setState(() => ({ monsters: users })));
   }
