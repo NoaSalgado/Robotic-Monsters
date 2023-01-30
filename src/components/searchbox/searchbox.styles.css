@@ -1,0 +1,7 @@
+.search-box {
+  border: 5px solid #6930c3;
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 1rem;
+  width: 20rem;
+}
